@@ -1,0 +1,30 @@
+.container{
+  /* height: 80rpx; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+  justify-content: space-around;
+}
+
+text{
+  font-size: 80rpx;
+  color: #3C5F81;
+}
+
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+
+.box{
+  width: 33.33%;
+  text-align: center;
+}
