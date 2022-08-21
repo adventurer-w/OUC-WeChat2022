@@ -1,0 +1,23 @@
+<!-- 区域1 -->
+<video id="myVideo"controls src='{{src}}'controls enable - danmu-btn></video>
+
+<!-- 区域2 -->
+<view class="danmuArea">
+  <input type='text' placeholder='请输入弹幕内容' bindinput="getDanmu"></input>
+  <button bindtap='sendDanmu'>发送弹幕</button>
+</view>
+
+<!-- 区域3 -->
+<!-- <view class = "videoList">
+  <view class="videoBar" wx:for='{{list}}' wx:key='videoindex'
+  data-url="{{item.videoUrl}}" bindtap="playVideo">
+    <image src = '/play.png'></image>
+    <text>{{item.title}}</text>
+  </view>
+</view> -->
+<view class = "videoList">
+  <view class="videoBar">
+    <image src = '/play.png'></image>
+    <text>一个视频</text>
+  </view>
+</view>
