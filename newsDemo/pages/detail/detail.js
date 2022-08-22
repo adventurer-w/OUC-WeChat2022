@@ -2,10 +2,6 @@
 var common = require('../../utils/common.js')
 
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
     article: {
       id: '239875',
@@ -13,7 +9,6 @@ Page({
       poster: 'http://i2.chinanews.com/simg/cmshd/2019/10/01/c5391220f28d49bdbd14c58a4300bde0.jpg',
       add_date: '2019 - 10 - 01',
       content: '    10月1日凌晨3时，大批中外记者先后乘坐巴士，向天安门方向出发。仍处于夜幕中的北京，多数市民正在享受难得的假期时光。此刻长安街上的安静，将与7个小时后形成巨大反差。'
-
     },
     isAdd:false
   },
